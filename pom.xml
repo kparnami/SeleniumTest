@@ -16,4 +16,32 @@
             <version>6.11</version>
         </dependency>
 </dependencies>
+  <repositories>
+    <repository>
+        <id>central</id>
+        <url>http://gotoNexus</url>
+        <snapshots>
+            <enabled>true</enabled>
+            <updatePolicy>always</updatePolicy>
+        </snapshots>
+        <releases>
+            <enabled>true</enabled>
+            <updatePolicy>daily</updatePolicy>
+        </releases>
+    </repository>
+</repositories>
+  <pluginRepositories>
+    <pluginRepository>
+        <id>central</id>
+        <url>http://gotoNexus</url>
+        <snapshots>
+            <enabled>true</enabled>
+            <updatePolicy>daily</updatePolicy>
+        </snapshots>
+        <releases>
+            <enabled>true</enabled>
+            <updatePolicy>never</updatePolicy>
+        </releases>
+    </pluginRepository>
+</pluginRepositories>
 </project>
